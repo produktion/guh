@@ -15,6 +15,15 @@ In order to getting started with *guh* and find information you can take a look 
 
     [guh | developer documentation](http://dev.guh.guru/).
 
+## Run with docker
+--------------------------------------------
+```bash
+mkdir ~/.guh
+cp -r docker/config ~/.guh/
+cp -r docker/log ~/.guh/
+
+docker-compose up
+```
 
 ## Donate
 --------------------------------------------
