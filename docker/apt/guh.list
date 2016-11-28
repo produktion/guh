@@ -1,0 +1,3 @@
+## guh repo
+deb http://repo.guh.guru jessie main
+deb-src http://repo.guh.guru jessie main

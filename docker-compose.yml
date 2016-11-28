@@ -1,0 +1,16 @@
+# Prerequisites:
+# Create all folders mentioned beneath
+
+version: '2'
+services:
+  guh:
+    build: .
+    image: produktion/guh
+    volumes:
+      - ~/.guh/log/guhd.sqlite:/var/log/guhd.sqlite
+      - ~/.guh/log/guhd.log:/var/log/guhd.log
+      - ~/.guh/config:/etc/guh
+    ports:
+      - "2222:2222"
+      - "3333:3333"
+      - "4444:4444"
